@@ -4,8 +4,8 @@ import About from "./Components/AboutUs/about";
 function App() {
   return (
     <div>
-    {/* <Login/> */}
-    <Home/>
+    <Login/>
+    {/* <Home/> */}
     {/* <About/> */}
     </div>
   );
