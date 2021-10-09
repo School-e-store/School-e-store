@@ -1,3 +1,4 @@
+import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import "./style1.css";  
 import Home_land from "../Images/Home_land.png";

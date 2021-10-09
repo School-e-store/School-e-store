@@ -1,3 +1,4 @@
+import React from "react";
 import Navbar_home from "./Navbar_home";
 import Feature from "./features";
 import School from "./School";

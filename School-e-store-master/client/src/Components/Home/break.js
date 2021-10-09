@@ -1,3 +1,4 @@
+import React from "react";
 import "./style1.css";  
 function Break(params) {
     return(<div style={{marginTop:"25px",marginBottom:"20px"}}>

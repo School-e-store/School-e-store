@@ -1,3 +1,4 @@
+import React from "react";
 import MyNavbar from "./Navbar";
 import Intro from "./Intro";
 import "./styles.css";

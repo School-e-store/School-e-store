@@ -26,7 +26,7 @@ async function main() {
   //db
   const db = mongoose.createConnection(config.dbURI);
   const userSchema = new mongoose.Schema({
-    email: String,
+    phoneNo: String,
     password: String,
     firstName: String,
     lastName: String,
