@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {Link} from "react-router-dom";
-import "./style1.css";
+import "./style_home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Duster from "../Images/duster.png";
 function Stationaries() {

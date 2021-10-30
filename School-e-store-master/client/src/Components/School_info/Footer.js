@@ -2,7 +2,6 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useEffect, useState } from "react";
-import "./style_about.css";
 import 'font-awesome/css/font-awesome.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {

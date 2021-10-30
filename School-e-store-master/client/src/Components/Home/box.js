@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {Link} from "react-router-dom";
-import "./style1.css";  
+import "./style_home.css";  
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nursery from "../Images/nursery.png";
 import Book2 from "../Images/Book2.png";

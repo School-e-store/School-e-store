@@ -1,5 +1,5 @@
 import React from "react";
-import "./style1.css";  
+import "./style_home.css";  
 function Break(params) {
     return(<div style={{marginTop:"25px",marginBottom:"20px"}}>
 <div className="line_home"></div>

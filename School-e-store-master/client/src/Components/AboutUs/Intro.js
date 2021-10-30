@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./styles.css";
+import "./style_about.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "../Images/About.png"
 function Intro()

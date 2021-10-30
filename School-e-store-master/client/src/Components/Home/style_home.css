@@ -78,6 +78,13 @@ margin-left: 50px;
   border-radius: 36px;
   height: fit-content;
 }
+.cardDesign_home:hover{
+  transform: translate(-1px,-1px);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
 @media screen and (max-width: 1255px) {
   .Inputstyle_home {
     margin-left: 150px;

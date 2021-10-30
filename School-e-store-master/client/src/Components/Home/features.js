@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./style1.css";
+import "./style_home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Book from "../Images/book.png";
 import Admission from "../Images/admission.png";

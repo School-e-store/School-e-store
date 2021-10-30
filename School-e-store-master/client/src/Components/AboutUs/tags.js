@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css"
+import "./style_about.css"
 import { useEffect,useState } from "react";
 function Tag()
 {

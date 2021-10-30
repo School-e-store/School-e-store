@@ -8,7 +8,7 @@ import { Container} from '@material-ui/core';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
-import "./style1.css";
+import "./style_home.css";
 import Logo from "../Images/logo.png";
 function MyNavbar()
 {

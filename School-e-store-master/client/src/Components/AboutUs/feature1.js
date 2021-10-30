@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from 'react-bootstrap/Card';
-import "./styles.css";
+import "./style_about.css";
 import Block from "../Images/block.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 function Feature1()

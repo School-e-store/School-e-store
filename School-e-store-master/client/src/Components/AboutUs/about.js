@@ -1,7 +1,7 @@
 import React from "react";
 import MyNavbar from "./Navbar";
 import Intro from "./Intro";
-import "./styles.css";
+import "./style_about.css";
 import Feature1 from "./feature1";
 import Feature2 from "./feature2";
 import FAQs from "./FAQs";

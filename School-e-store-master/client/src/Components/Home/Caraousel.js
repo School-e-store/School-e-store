@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import "./style1.css";  
+import "./style_home.css";  
 import Home_land from "../Images/Home_land.png";
 function MyCaraousel()
 {

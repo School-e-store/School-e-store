@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import DPS from "../Images/DPS.png";
 import IITM from "../Images/IITM.png";
 import IITD from "../Images/IITD.png";
-import "./style1.css";
+import "./style_home.css";
 function School() {
   return (
     <div>
