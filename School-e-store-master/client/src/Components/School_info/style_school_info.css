@@ -123,6 +123,8 @@ padding-bottom: 5px;
     margin-left: 27px;
     text-align: center;
     line-height: 48px;
+    display: flex;
+    align-items: center;
 }
 .school_info_table1_content{
     font-size: 18px;
@@ -131,6 +133,8 @@ padding-bottom: 5px;
     margin-left: 25px;
     text-align: center;
     line-height: 44px;
+    display: flex;
+    align-items: center;
 }
 .school_info_table2_title{
     background-color: #F1E4FF;
@@ -140,6 +144,8 @@ padding-bottom: 5px;
     margin-left: 27px;
     text-align: center;
     line-height: 48px;
+    display: flex;
+    align-items: center;
 }
 .school_info_table2_content{
     font-size: 18px;
@@ -148,10 +154,27 @@ padding-bottom: 5px;
     margin-left: 25px;
     text-align: center;
     line-height: 44px;
+    display: flex;
+    align-items: center;
 }
 .box_title{
     padding-left: 50px;
     margin-bottom: 15px;
+}
+.admission_button1{
+    border: 1px solid #AB68F8;
+    box-sizing: border-box;
+}
+.admission_button2{
+    color: white;
+    background-color: #1F5CA2;
+    border: 1px solid #1F5CA2;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+.admission_button2:hover{
+    background-color:royalblue;
+    border: 1px solid royalblue;
 }
 @media screen and (max-width: 1255px) {
     .land_card{ 
@@ -270,6 +293,9 @@ padding-bottom: 5px;
         height: 150px;
         width: 150px;
     }
+    .admission_button1{
+     margin-left: -10px;
+    }
 }
 @media screen and (max-width: 768px){
     .land_card{ 
@@ -280,6 +306,9 @@ padding-bottom: 5px;
     }
     .land_detail1{ 
         width: 90%;
+    }
+    .land_pagin{
+        padding-left: 40px;
     }
     .land_nav{
     margin-left: 1px !important;
@@ -301,6 +330,9 @@ padding-bottom: 5px;
     }
     .school_info_table2_content{
         margin-left: 17px;
+    }
+    .admission_button1{
+        margin-left: -35px;
     }
 }
 @media screen and (max-width: 711px) {
@@ -329,6 +361,12 @@ padding-bottom: 5px;
         font-size: 15px;
         font-weight: 400;
     }
+    .admission_button1{
+        margin-left: -45px;
+    }
+    .land_pagin{
+        padding-left: 20px;
+    }
 }
 @media screen and (max-width: 611px) {
     .land_card{ 
@@ -342,6 +380,17 @@ padding-bottom: 5px;
     }
     .school_info_table2_title{
         line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .school_info_table2_content{
+        margin-top: -10px;
+    }
+    .admission_button2{
+        margin-top: -20px;
+        margin-left: 0px;
+    }
+    .admission_button1{
+        margin-left: 0px;
     }
 }
 @media screen and (max-width: 575px){
@@ -377,6 +426,14 @@ padding-bottom: 5px;
         line-height: 20px;
         margin-top: 8px;
     }
+    .admission_button2{
+        margin-top: 2px;
+        margin-left: 0px;
+    }
+    .admission_button1{
+        margin-left: 0px;
+    }
+
 }
 @media screen and (max-width: 457px){
     .land_card{ 
@@ -420,6 +477,16 @@ padding-bottom: 5px;
     .school_info_table2_content{
         font-size: 15px;
         font-weight: 400;
+    }
+    .admission_button2{
+        margin-top: 2px;
+        margin-left: -12px;
+    }
+    .admission_button1{
+        margin-left: -12px;
+    }
+    .land_pagin{
+        padding-left: 10px;
     }
 }
   

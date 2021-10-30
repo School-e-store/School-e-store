@@ -69,7 +69,14 @@ function Admission()
      <Col lg={2} md={2} sm={2} xs={2} className="m-0 p-0">2020-2023</Col> 
      <Col lg={2} md={2} sm={2} xs={2} className="m-0 p-0">--</Col> 
      <Col lg={3} md={3} sm={3} xs={3} className="m-0 p-0">₹ 25</Col> 
-     <Col lg={3} md={3} sm={3} xs={3} className="m-0 p-0">Action</Col>
+     <Col lg={3} md={3} sm={3} xs={3} className="m-0 p-0">
+     <Button className="admission_button1" variant="outline-dark" size="sm">Apply now
+     {/* <Link to="/login">Log-In</Link> */}
+     </Button>
+     <Button className="admission_button2" variant="outline-dark" size="sm">Add to cart
+     {/* <Link to="/login">Log-In</Link> */}
+     </Button>
+     </Col>
   </Row>
   <div style={{border:"solid black 1px",width:"100%",height:"0%",boxShadow:"0px 0px 6px #000000",marginTop:"20px"}}></div>
   <div style={{color:"black",textAlign:"center",fontSize:"20px"}}><FontAwesomeIcon icon={faChevronDown} /></div>

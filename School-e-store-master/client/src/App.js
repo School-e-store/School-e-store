@@ -12,9 +12,9 @@ function App() {
     <div>
     {/* <Form_switch/> */}
     {/* <Home/> */}
-    {/* <About_school/> */}
     {/* <About/> */}
-    <Admsn_flow/>
+    <About_school/>
+    {/* <Admsn_flow/> */}
     {/* <Schestore_flow/> */}
     {/* <Job_flow/> */}
     {/* <People_flow/> */}
