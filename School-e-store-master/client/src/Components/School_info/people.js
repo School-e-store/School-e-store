@@ -5,7 +5,12 @@ import Back_img from "../Images/back_img.jpg";
 import IITD from "../Images/IITD.png";
 import { Row,Col } from "react-bootstrap";
 import Principal from "../Images/principal.jpg";
+import People1 from "../Images/people1.png";
+import People2 from "../Images/people2.png";
+import People3 from "../Images/people3.png";
+import People4 from "../Images/people4.png";
 import Tour from "../Images/tour.jpeg";
+import { Link } from "react-router-dom";
 function People()
 {
   return (<div>
@@ -24,11 +29,11 @@ function People()
     </div>
     <div style={{border:"solid black 2px",width:"100%",height:"0%"}}></div>
     <Row className="m-0 p-0">
-    <Col lg={2} md={2} sm={4} className="land_nav">About school</Col>   
-    <Col lg={2} md={2} sm={4} className="land_nav">Admission</Col>   
-    <Col lg={2} md={2} sm={4} className="land_nav">Schoolestore</Col>   
-    <Col lg={2} md={2} sm={4} className="land_nav">Jobs</Col>   
-    <Col lg={2} md={2} sm={4} className="land_nav1">People</Col>   
+    <Col lg={2} md={2} sm={4} className="land_nav"><Link style={{textDecoration:"none",color:"black"}} to="/School">About school </Link></Col>   
+    <Col lg={2} md={2} sm={4} className="land_nav"><Link style={{textDecoration:"none",color:"black"}} to="/School/admission">Admission</Link></Col>
+    <Col lg={2} md={2} sm={4} className="land_nav"><Link style={{textDecoration:"none",color:"black"}} to="/School/schoolestore">Schoolestore</Link></Col>
+    <Col lg={2} md={2} sm={4} className="land_nav"><Link style={{textDecoration:"none",color:"black"}} to="/School/jobs">Jobs</Link></Col>   
+    <Col lg={2} md={2} sm={4} className="land_nav1"><Link style={{textDecoration:"none",color:"black"}} to="/School/people">People</Link></Col> 
     </Row> 
     </div>
   </div>
@@ -36,23 +41,63 @@ function People()
   <div className="land_detail">
   <div className="land_abt_school">
     <div style={{fontSize:"30px",fontWeight:"700",color:"#8C30F5"}}>Principal</div>
-        <img src={Principal} className="img_principal"/>   
-    <div style={{fontSize:"18px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem tortor, vitae, aenean eget sed bibendum eu. Egestas enim viverra tristique sed nisl tempor, a, ultricies elit. Nunc eget eget pulvinar eu mattis nisi. Vel id commodo tincidunt tempus eu posuere nibh neque, sed. Sit sapien et diam in quis consectetur lectus morbi pellentesque. At purus lorem aliquam tincidunt eu nulla facilisis nunc a. Nunc arcu dignissim ultrices sed vulputate. Nulla nibh viverra egestas massa. Est eros sodales fringilla sit lacus sed amet orci sed. Mauris ut ante pulvinar id arcu tristique sapien dignissim nunc. Tincidunt dictumst iaculis pulvinar lacinia dui, mattis sed. A sed pretium tincidunt tincidunt nulla dui urna vehicula viverra. Non sem massa morbi odio. Diam nec lorem mauris lacus, leo. Aliquam elementum iaculis euismod ornare eu. Ac tellus sed ullamcorper vel tincidunt congue.</div>
+    <Row>
+    <Col lg={4} md={4} sm={4} xs={12}>
+        <img src={People1} className="img_principal"/> 
+    </Col>
+    <Col lg={8} md={8} sm={8} xs={12}>     
+        <div style={{fontSize:"30px",fontWeight:"500"}}>Abhinav Singh</div> 
+    <div style={{fontSize:"22px"}}>
+B.Tech. (Computer Science) <br/><br/>
+
+PGDBM - Marketing<br/>
+IMT <br/>
+Ghaziabad, India</div>
+</Col>
+</Row>
   </div>
   <div className="land_abt_school">
-    <div style={{fontSize:"30px",fontWeight:"700",color:"#8C30F5"}}>Manager</div>
-        <img src={Principal} className="img_principal"/>   
-    <div style={{fontSize:"18px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem tortor, vitae, aenean eget sed bibendum eu. Egestas enim viverra tristique sed nisl tempor, a, ultricies elit. Nunc eget eget pulvinar eu mattis nisi. Vel id commodo tincidunt tempus eu posuere nibh neque, sed. Sit sapien et diam in quis consectetur lectus morbi pellentesque. At purus lorem aliquam tincidunt eu nulla facilisis nunc a. Nunc arcu dignissim ultrices sed vulputate. Nulla nibh viverra egestas massa. Est eros sodales fringilla sit lacus sed amet orci sed. Mauris ut ante pulvinar id arcu tristique sapien dignissim nunc. Tincidunt dictumst iaculis pulvinar lacinia dui, mattis sed. A sed pretium tincidunt tincidunt nulla dui urna vehicula viverra. Non sem massa morbi odio. Diam nec lorem mauris lacus, leo. Aliquam elementum iaculis euismod ornare eu. Ac tellus sed ullamcorper vel tincidunt congue.</div>
-  </div>
+    <div style={{fontSize:"30px",fontWeight:"700",color:"#8C30F5"}}>School Board Member</div>
+    <Row>
+    <Col lg={4} md={4} sm={4} xs={12}>
+        <img src={People2} className="img_principal"/> 
+    </Col>
+    <Col lg={8} md={8} sm={8} xs={12}>     
+        <div style={{fontSize:"30px",fontWeight:"500"}}>Susan Holmes</div> 
+    <div style={{fontSize:"22px"}}>
+B.A. (Hons.) English and German University of Liverpool, U.K.<br/><br/><br/>
+M.A. Education University of Leicester, U.K.<br/><br/><br/>
+Post Graduate Certificate in Education, Birmingham University, U.K.<br/><br/><br/>
+National Professional Qualification for Headship National College for Teaching and Leadership, U.K.</div>
+</Col>
+</Row>
+  </div>  
   <div className="land_abt_school">
-    <div style={{fontSize:"30px",fontWeight:"700",color:"#8C30F5"}}>Alumni</div>
-        <img src={Principal} className="img_principal"/>   
-    <div style={{fontSize:"18px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem tortor, vitae, aenean eget sed bibendum eu. Egestas enim viverra tristique sed nisl tempor, a, ultricies elit. Nunc eget eget pulvinar eu mattis nisi. Vel id commodo tincidunt tempus eu posuere nibh neque, sed. Sit sapien et diam in quis consectetur lectus morbi pellentesque. At purus lorem aliquam tincidunt eu nulla facilisis nunc a. Nunc arcu dignissim ultrices sed vulputate. Nulla nibh viverra egestas massa. Est eros sodales fringilla sit lacus sed amet orci sed. Mauris ut ante pulvinar id arcu tristique sapien dignissim nunc. Tincidunt dictumst iaculis pulvinar lacinia dui, mattis sed. A sed pretium tincidunt tincidunt nulla dui urna vehicula viverra. Non sem massa morbi odio. Diam nec lorem mauris lacus, leo. Aliquam elementum iaculis euismod ornare eu. Ac tellus sed ullamcorper vel tincidunt congue.</div>
-  </div>
+    <div style={{fontSize:"30px",fontWeight:"700",color:"#8C30F5"}}>School Board Member</div>
+    <Row>
+    <Col lg={4} md={4} sm={4} xs={12}>
+        <img src={People3} className="img_principal"/> 
+    </Col>
+    <Col lg={8} md={8} sm={8} xs={12}>     
+        <div style={{fontSize:"30px",fontWeight:"500"}}>    Dr Suhasini Kanwar</div> 
+    <div style={{fontSize:"22px"}}>
+B.A. (Hons.) English<br/>M.A. English Literature<br/>Lady Sri Ram College<br/>Delhi University<br/><br/>
+P.G.D.E.L.<br/>IDISCOVERI &<br/>University of Cambridge<br/>United Kingdom</div>
+</Col>
+</Row>
+  </div>  
   <div className="land_abt_school">
-    <div style={{fontSize:"30px",fontWeight:"700",color:"#8C30F5"}}>Achivers</div>
-        <img src={Principal} className="img_principal"/>   
-    <div style={{fontSize:"18px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem tortor, vitae, aenean eget sed bibendum eu. Egestas enim viverra tristique sed nisl tempor, a, ultricies elit. Nunc eget eget pulvinar eu mattis nisi. Vel id commodo tincidunt tempus eu posuere nibh neque, sed. Sit sapien et diam in quis consectetur lectus morbi pellentesque. At purus lorem aliquam tincidunt eu nulla facilisis nunc a. Nunc arcu dignissim ultrices sed vulputate. Nulla nibh viverra egestas massa. Est eros sodales fringilla sit lacus sed amet orci sed. Mauris ut ante pulvinar id arcu tristique sapien dignissim nunc. Tincidunt dictumst iaculis pulvinar lacinia dui, mattis sed. A sed pretium tincidunt tincidunt nulla dui urna vehicula viverra. Non sem massa morbi odio. Diam nec lorem mauris lacus, leo. Aliquam elementum iaculis euismod ornare eu. Ac tellus sed ullamcorper vel tincidunt congue.</div>
+    <div style={{fontSize:"30px",fontWeight:"700",color:"#8C30F5"}}>School Board Member</div>
+    <Row>
+    <Col lg={4} md={4} sm={4} xs={12}>
+        <img src={People4} className="img_principal"/> 
+    </Col>
+    <Col lg={8} md={8} sm={8} xs={12}>     
+        <div style={{fontSize:"30px",fontWeight:"500"}}>    Sonal Anand Singh</div> 
+    <div style={{fontSize:"22px"}}>
+B.A. (Hons.) Political Science<br/><br/>Hindu College<br/>University of Delhi<br/><br/><br/>M.A. International Relations<br/>University of Warwick<br/>United Kingdom</div>
+</Col>
+</Row>
   </div>  
   </div>
   </div>

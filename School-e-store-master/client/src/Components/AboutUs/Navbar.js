@@ -8,6 +8,7 @@ import { Container} from '@material-ui/core';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
+import Logo from "../Images/logo.png";
 function MyNavbar()
 {
   const[winWidth,setWidth]=useState(window.innerWidth);
@@ -21,7 +22,7 @@ return (<div>
 <Navbar expand="lg" className="colorNav">
 <Container className="pr-0">
 {(winWidth>991)&&(<div className="myToggle">  
-  <img src="#" className="Imagestyle"/>
+  <img src={Logo} className="Imagestyle2"/>
     <Nav className="me-auto">
     <div style={{marginLeft:"100px",marginTop:"4px",color:"black"}}>
     <Nav.Link to="#link" className="tag">About  </Nav.Link>
@@ -29,27 +30,20 @@ return (<div>
     <Nav.Link to="#link" className="tag">Contact</Nav.Link>
     </div>
     <div className="button">
-    <button size="md" className="custom_but1">Log-In
-      {/* <Link to="#">Log-In</Link> */}
-    </button>
-    <button size="md" className="custom_but2">Sign-Up
-      {/* <Link to="/signup">Sign-Up</Link> */}
-    </button>
+    <Link to="/login" style={{textDecoration:"none"}}><button size="md" className="custom_but1">Log-In</button></Link>
+    <Link to="/signup" style={{textDecoration:"none"}}><button size="md" className="custom_but2">Sign-Up</button></Link>
     </div>
     </Nav>
   </div>)
     }    
   {(winWidth<=991)&&(<div>
-  <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+  <div className="toggle_button"><Navbar.Toggle aria-controls="basic-navbar-nav"/>
+  </div>
   <div className="myToggle">  
-  <img src="#" className="Imagestyle"/>
+  <img src={Logo} className="Imagestyle2"/>
   <div className="button">
-    <Button variant="outline-dark" size="md" className="custom_but1">Log-In
-      {/* <Link to="/login">Log-In</Link> */}
-    </Button>
-    <Button variant="outline-dark" size="md" className="custom_but2">Sign-Up
-      {/* <Link to="/signup">Sign-Up</Link> */}
-    </Button>
+  <Link to="/login" style={{textDecoration:"none"}}><button size="md" className="custom_but1">Log-In</button></Link>
+    <Link to="/signup" style={{textDecoration:"none"}}><button size="md" className="custom_but2">Sign-Up</button></Link>
   </div>
   <Navbar.Collapse id="basic-navbar-nav" className="drop_sym">
     <Nav className="me-auto">

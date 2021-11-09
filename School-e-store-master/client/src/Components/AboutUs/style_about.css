@@ -10,6 +10,10 @@
   padding-right: 20px;
   margin-right: 0px;
 }
+.Imagestyle2{
+  height:40px;
+  width: 40px;
+}
 .Mycontainer {
   background-color: #2e1a1a;
 }
@@ -248,6 +252,9 @@ margin-top: 30px;
   .Intro_pad{
     padding-right: 80px;
   }
+  .FAQ-subtitle{
+    margin-top: 0px;
+  }
  }
 @media screen and (max-width: 1168px) {
   .button{
@@ -268,7 +275,18 @@ margin-top: 30px;
     width:220px;
     }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px){
+  .Imagestyle2{
+    height:40px;
+    width: 40px;
+    margin-left: 20px;
+  }
+  .toggle_button{
+    display: inline;
+    /* margin-top: -20px !important; */
+  }
+}
+@media screen and (max-width: 991px) {
   .button{
     display: inline;
     margin-left: 405px;
@@ -305,11 +323,11 @@ margin-top: 30px;
     height: 70%;
     width: 100%;
   }
-}
-@media screen and (max-width: 991px) {
-  .Inputstyle{
-    width:320px;
-    }
+  .Imagestyle2{
+    height:40px;
+    width: 40px;
+    margin-top: -10px;
+  }
 }
 @media screen and (max-width: 850px) {
   .Inputstyle{
@@ -450,5 +468,11 @@ margin-top: 30px;
   .image4{
     height: 100%;
     width: 100%;
+  }
+  .Imagestyle2{
+    height:40px;
+    width: 40px;
+    margin-top: -10px;
+    margin-left: 55px;
   }
 }

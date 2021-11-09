@@ -4,9 +4,9 @@ import Signup from "./SignUp";
 import { useState } from "react";
 import "./style_auth.css";
 import { CSSTransition } from "react-transition-group";
-function Form_switch()
+function Form_switch(props)
 {
-    const [isSignup, setSignUp] = useState(false);  
+    const [isSignup, setSignUp] = useState(props.val);  
  return(
      <div>
     <CSSTransition

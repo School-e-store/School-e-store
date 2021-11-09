@@ -45,9 +45,10 @@ function Signup(props)
              <Col className="sign_detail" lg={4} md={4} sm={4} xs={12}>
                  <div className="data-1">Welcome Back</div>
                  <div className="data-2">Already have an account?</div>
+                 <Link to="/login">
                  <button onClick={()=>{props.formtype(false)}} size="md" className="sign_but1">LOG IN
-                    {/* <Link to="#">Log-In</Link> */}
                  </button>
+                 </Link>
              </Col>
              <Col className="sign_form" lg={8} md={8} sm={8} xs={12}>
                 <div className="data-3">Create Account</div> 

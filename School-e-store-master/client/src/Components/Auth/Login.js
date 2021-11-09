@@ -77,9 +77,9 @@ function Login(props)
              <Col className="sign2_detail" lg={4} md={4} sm={4} xs={12}>
                  <div className="data-1">Hello There!</div>
                  <div className="data-2">Enter your details and start your journey with us.</div>
-                 <button size="md" className="sign_but1" onClick={()=>{props.formtype(true)}}>SIGN UP
-                    {/* <Link to="#">Log-In</Link> */}
-                 </button>
+                 <Link to="/signup">
+                 <button size="md" className="sign_but1" onClick={()=>{props.formtype(true)}}>SIGN UP</button>
+                 </Link>
              </Col>
          </Row>}
          {(winWidth<576)&&
@@ -87,9 +87,9 @@ function Login(props)
              <Col className="sign2_detail" lg={4} md={4} sm={4} xs={12}>
                  <div className="data-1">Hello There!</div>
                  <div className="data-2">Enter your details and start your journey with us.</div>
-                 <button size="md" className="sign_but1" onClick={()=>{props.formtype(true)}}>SIGN UP
-                    {/* <Link to="#">Log-In</Link> */}
-                 </button>
+                 <Link to="/signup">
+                 <button size="md" className="sign_but1" onClick={()=>{props.formtype(true)}}>SIGN UP</button>
+                 </Link>
              </Col>
              <Col className="sign_form" lg={8} md={8} sm={8} xs={12}>
                 <div className="data-3">Login to School-e-Store</div> 

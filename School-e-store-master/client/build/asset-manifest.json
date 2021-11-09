@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea6d72ea.chunk.css",
+    "main.js": "/static/js/main.80df16c4.chunk.js",
+    "main.js.map": "/static/js/main.80df16c4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.52175fdb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.52175fdb.js.map",
+    "static/css/2.52e9da18.chunk.css": "/static/css/2.52e9da18.chunk.css",
+    "static/js/2.b2706bad.chunk.js": "/static/js/2.b2706bad.chunk.js",
+    "static/js/2.b2706bad.chunk.js.map": "/static/js/2.b2706bad.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a84896563cdc90850ffcfa6d0f062c94.js": "/precache-manifest.a84896563cdc90850ffcfa6d0f062c94.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.52e9da18.chunk.css.map": "/static/css/2.52e9da18.chunk.css.map",
+    "static/css/main.ea6d72ea.chunk.css.map": "/static/css/main.ea6d72ea.chunk.css.map",
+    "static/js/2.b2706bad.chunk.js.LICENSE.txt": "/static/js/2.b2706bad.chunk.js.LICENSE.txt",
+    "static/media/About.png": "/static/media/About.67dd8970.png",
+    "static/media/About_land.png": "/static/media/About_land.0a56c260.png",
+    "static/media/Book2.png": "/static/media/Book2.2e0f822b.png",
+    "static/media/DPS.png": "/static/media/DPS.45641fee.png",
+    "static/media/Home_land.png": "/static/media/Home_land.81e8feb4.png",
+    "static/media/IITD.png": "/static/media/IITD.dc38741d.png",
+    "static/media/IITM.png": "/static/media/IITM.a5ed87f0.png",
+    "static/media/about_fea1.png": "/static/media/about_fea1.df4c982e.png",
+    "static/media/about_fea2.png": "/static/media/about_fea2.a612ed08.png",
+    "static/media/back_img.jpg": "/static/media/back_img.115eafb8.jpg",
+    "static/media/bestseller2.png": "/static/media/bestseller2.3264c3a3.png",
+    "static/media/duster.png": "/static/media/duster.3339da72.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo.png": "/static/media/logo.b51292e8.png",
+    "static/media/nursery.png": "/static/media/nursery.d21167f7.png",
+    "static/media/pen.png": "/static/media/pen.f6b49c2c.png",
+    "static/media/principal.jpg": "/static/media/principal.cff4d19c.jpg",
+    "static/media/tour.jpeg": "/static/media/tour.13bb5453.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52175fdb.js",
+    "static/css/2.52e9da18.chunk.css",
+    "static/js/2.b2706bad.chunk.js",
+    "static/css/main.ea6d72ea.chunk.css",
+    "static/js/main.80df16c4.chunk.js"
+  ]
+}
